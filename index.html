@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"type="text/javascript"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+
+  </head>
+  <body>
+    <h1>Tell me your name and receive a letter!</h1>
+    <div class="container">
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="personName">Enter Name here:</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Send me the letter!</button>
+        </form>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend diam leo, non sagittis lacus aliquet quis. Sed in semper orci. Integer interdum, sem sit amet faucibus tincidunt, lacus mi rhoncus mi, ac sollicitudin urna ipsum elementum nibh. Cras consequat est at tincidunt dictum. Suspendisse dapibus sapien vel tortor pharetra fringilla. Sed porttitor interdum sapien, vitae tristique est volutpat eget. Praesent feugiat massa id tellus facilisis, ut tempor mauris consequat. Ut pulvinar dolor nec sapien mollis, vel feugiat ipsum pulvinar. Pellentesque finibus ac risus vitae auctor. In lorem est, pretium eu justo sit amet, tristique hendrerit ligula.
+            </p>
+            <p>
+              Nulla eget dapibus erat. Aliquam auctor orci id dui ullamcorper ornare. Phasellus condimentum mi faucibus velit placerat ultrices. Etiam gravida erat et est ultricies, in convallis leo accumsan. Cras augue nulla, dignissim maximus convallis elementum, tempus et turpis. Morbi fermentum turpis vitae ligula semper, tempor suscipit nibh dapibus. Quisque hendrerit ex sed pulvinar fringilla. Aenean diam tortor, commodo eget cursus ac, finibus at nisl. Phasellus ut orci tortor.
+            </p>
+            <p>
+              Nulla egestas, nisl ut ultricies semper, magna metus consequat lacus, eu viverra tellus augue at augue. Nam et ultrices eros. Nam nec nulla sit amet orci rhoncus molestie. Fusce leo dui, viverra eget quam in, vehicula convallis quam. Nunc dapibus molestie mi, ut interdum magna lacinia id. Aenean in consectetur risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque semper lacus odio, ut interdum justo consequat sit amet. In et interdum nibh. Curabitur tortor ante, interdum nec ornare id, mollis at urna.
+            </p>
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
